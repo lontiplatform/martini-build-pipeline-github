@@ -38,7 +38,7 @@ jobs:
 |-----------------|--------------|----------|--------------------------------------------------------------------------------------|
 | `base_url`      | N/A          | Yes      | Base URL of the Martini instance                                                     |
 | `client_id`     | `TOROMartini`| No       | Client ID of the Martini instance. If omitted, defaults to `TOROMartini`             |
-| `client_secret` | N/A          | No       | Client Secret of the Martini instance                                                 |
+| `client_secret` | N/A          | Yes      | Client Secret of the Martini instance                                                |
 | `user_name`     | N/A          | Yes      | Name of a user on the Martini instance that should be used for uploading the package |
 | `user_password` | N/A          | Yes      | The user's password                                                                  |
 | `package_dir`   | N/A          | Yes      | Path to a directory that contains the package's files                                |

@@ -64139,7 +64139,7 @@ const MARTINI_BASE_URL = core.getInput('base_url', {
 const MARTINI_CLIENT_ID = core.getInput('client_id') || 'TOROMartini';
 
 const MARTINI_CLIENT_SECRET = core.getInput('client_secret', {
-    required: false,
+    required: true,
 });
 
 const MARTINI_USER_NAME = core.getInput('user_name', {
