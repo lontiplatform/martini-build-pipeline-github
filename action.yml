@@ -1,6 +1,6 @@
-name: 'Martini Upload Package'
+name: 'Martini Build Pipeline Github'
 description: 'Prepares and uploads packages to a Martini instance'
-author: 'Rafal Janicki <rafal.janicki@torocloud.com>'
+author: 'Lonti <support@lonti.com>'
 
 inputs:
   base_url:

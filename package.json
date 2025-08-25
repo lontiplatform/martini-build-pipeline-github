@@ -1,8 +1,8 @@
 {
-  "name": "martini-upload-package-action",
+  "name": "martini-build-pipeline-github",
   "author": {
-    "email": "rafal.janicki@torocloud.com",
-    "name": "Rafal Janicki"
+    "email": "support@lonti.com",
+    "name": "Lonti"
   },
   "version": "1.0.0",
   "description": "Prepares and uploads a package to a Martini instance",
@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/torocloud/martini-upload-package-action.git"
+    "url": "https://github.com/lontiplatform/martini-build-pipeline-github.git"
   },
   "bugs": {
-    "url": "https://github.com/torocloud/martini-upload-package-action/issues"
+    "url": "https://github.com/lontiplatform/martini-build-pipeline-github/issues"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.38.1",
@@ -28,7 +28,7 @@
   "dependencies": {
     "@actions/core": "^1.10.1",
     "archiver": "^7.0.1",
-    "form-data": "^4.0.2",
+    "form-data": "^4.0.4",
     "node-fetch": "^2.7.0"
   }
 }
